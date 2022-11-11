@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE339447291BF42F00028F1E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE339446291BF42F00028F1E /* BaseViewController.swift */; };
+		EE33944A291BF65600028F1E /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE339449291BF65600028F1E /* UIView+Ext.swift */; };
+		EE3849B0291DF54A0020B231 /* OnboardingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3849AC291DF54A0020B231 /* OnboardingRouter.swift */; };
+		EE3849B1291DF54A0020B231 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3849AD291DF54A0020B231 /* OnboardingViewController.swift */; };
+		EE3849B2291DF54A0020B231 /* OnboardingBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3849AE291DF54A0020B231 /* OnboardingBuilder.swift */; };
+		EE3849B3291DF54A0020B231 /* OnboardingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3849AF291DF54A0020B231 /* OnboardingInteractor.swift */; };
+		EE3849B8291DF5530020B231 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3849B4291DF5530020B231 /* MainRouter.swift */; };
+		EE3849B9291DF5530020B231 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3849B5291DF5530020B231 /* MainViewController.swift */; };
+		EE3849BA291DF5530020B231 /* MainBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3849B6291DF5530020B231 /* MainBuilder.swift */; };
+		EE3849BB291DF5530020B231 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3849B7291DF5530020B231 /* MainInteractor.swift */; };
 		EEF88437290A166B007B9B8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF88436290A166B007B9B8B /* AppDelegate.swift */; };
 		EEF88439290A166B007B9B8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF88438290A166B007B9B8B /* SceneDelegate.swift */; };
 		EEF88440290A166D007B9B8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEF8843F290A166D007B9B8B /* Assets.xcassets */; };
@@ -20,6 +30,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE339446291BF42F00028F1E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		EE339449291BF65600028F1E /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		EE3849AC291DF54A0020B231 /* OnboardingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingRouter.swift; sourceTree = "<group>"; };
+		EE3849AD291DF54A0020B231 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		EE3849AE291DF54A0020B231 /* OnboardingBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingBuilder.swift; sourceTree = "<group>"; };
+		EE3849AF291DF54A0020B231 /* OnboardingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingInteractor.swift; sourceTree = "<group>"; };
+		EE3849B4291DF5530020B231 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		EE3849B5291DF5530020B231 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EE3849B6291DF5530020B231 /* MainBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBuilder.swift; sourceTree = "<group>"; };
+		EE3849B7291DF5530020B231 /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
 		EEF88433290A166B007B9B8B /* ExRIBs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExRIBs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF88436290A166B007B9B8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEF88438290A166B007B9B8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +65,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE339444291BF40D00028F1E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				EE339448291BF64800028F1E /* UIUtil */,
+				EE339445291BF42800028F1E /* Base */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		EE339445291BF42800028F1E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EE339446291BF42F00028F1E /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		EE339448291BF64800028F1E /* UIUtil */ = {
+			isa = PBXGroup;
+			children = (
+				EE339449291BF65600028F1E /* UIView+Ext.swift */,
+			);
+			path = UIUtil;
+			sourceTree = "<group>";
+		};
+		EE3849AA291DF3640020B231 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EE3849B4291DF5530020B231 /* MainRouter.swift */,
+				EE3849B5291DF5530020B231 /* MainViewController.swift */,
+				EE3849B6291DF5530020B231 /* MainBuilder.swift */,
+				EE3849B7291DF5530020B231 /* MainInteractor.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EE3849AB291DF3D80020B231 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				EE3849AC291DF54A0020B231 /* OnboardingRouter.swift */,
+				EE3849AD291DF54A0020B231 /* OnboardingViewController.swift */,
+				EE3849AE291DF54A0020B231 /* OnboardingBuilder.swift */,
+				EE3849AF291DF54A0020B231 /* OnboardingInteractor.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		EEF8842A290A166B007B9B8B = {
 			isa = PBXGroup;
 			children = (
@@ -84,8 +151,9 @@
 		EEF88466290A54C5007B9B8B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				EEF88469290A564F007B9B8B /* Presentation */,
 				EEF8844A290A167B007B9B8B /* Application */,
+				EEF88469290A564F007B9B8B /* Presentation */,
+				EE339444291BF40D00028F1E /* Utility */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -110,6 +178,8 @@
 		EEF88469290A564F007B9B8B /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				EE3849AB291DF3D80020B231 /* Onboarding */,
+				EE3849AA291DF3640020B231 /* Main */,
 				EEF8846A290A5681007B9B8B /* Root */,
 			);
 			path = Presentation;
@@ -203,12 +273,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEF88478290A5C1D007B9B8B /* RootInteractor.swift in Sources */,
+				EE3849B8291DF5530020B231 /* MainRouter.swift in Sources */,
 				EEF88437290A166B007B9B8B /* AppDelegate.swift in Sources */,
 				EEF8847A290A5D9E007B9B8B /* AppComponent.swift in Sources */,
+				EE339447291BF42F00028F1E /* BaseViewController.swift in Sources */,
+				EE3849B2291DF54A0020B231 /* OnboardingBuilder.swift in Sources */,
 				EEF88475290A5C1D007B9B8B /* RootRouter.swift in Sources */,
+				EE3849B0291DF54A0020B231 /* OnboardingRouter.swift in Sources */,
+				EE3849BA291DF5530020B231 /* MainBuilder.swift in Sources */,
 				EEF88477290A5C1D007B9B8B /* RootBuilder.swift in Sources */,
+				EE3849B9291DF5530020B231 /* MainViewController.swift in Sources */,
 				EEF88476290A5C1D007B9B8B /* RootViewController.swift in Sources */,
+				EE33944A291BF65600028F1E /* UIView+Ext.swift in Sources */,
+				EE3849B1291DF54A0020B231 /* OnboardingViewController.swift in Sources */,
 				EEF88439290A166B007B9B8B /* SceneDelegate.swift in Sources */,
+				EE3849BB291DF5530020B231 /* MainInteractor.swift in Sources */,
+				EE3849B3291DF54A0020B231 /* OnboardingInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
